@@ -25,9 +25,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-l)ad7jh-5l705h$(!59(@v99@hh99y9m0q87b_@%c%b&s&t5fy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = ['test.com', 'localhost']
 
 
 # Application definition
@@ -39,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-     'stockVisualizer', #add this line to settings.py
+    'stockVisualizer', #add this line to settings.py
 ]
 
 MIDDLEWARE = [
@@ -53,6 +54,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'alphaVantage.urls'
+
 
 TEMPLATES = [
     {
