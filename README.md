@@ -1,10 +1,19 @@
-# CodeFinance
-Financial software hobby project with regression analysis and machine learning. 
+**Stock Predicting Software**
 
-Written in Python using Alpha Vantage API, NUMPY, Pandas,Regression analysis and PyTorch. Uses LSTM and GRU Deep Learning Models.
+This is a financial software hobby project aimed at predicting stock prices using regression analysis and machine learning techniques.
 
-Mean Squared Error (MSE): 1.3138430025999263e-05
-Root Mean Squared Error (RMSE): 0.0036246972323215167
-Accuracy: 99.63753027676785 %
+**Overview**
 
-Used source:https://www.alphavantage.co/ai-machine-learning-for-finance/
+The software is written in Python and utilizes various libraries and APIs to gather and analyze financial data. It employs regression analysis, as well as deep learning models like LSTM and GRU, to forecast stock prices.
+
+Features
+
+Utilizes the Alpha Vantage API for accessing financial data. Employs NumPy and Pandas for data manipulation and analysis. Implements regression analysis for traditional statistical modeling. Utilizes PyTorch for building and training LSTM and GRU deep learning models. Provides accuracy metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and overall accuracy. Installation
+
+Clone the repository from GitHub. Install the required dependencies using pip: Copy code pip install numpy pandas torch Obtain an API key from Alpha Vantage and replace YOUR_API_KEY in the code with your actual API key. Usage
+
+Run the aistockmodeling.ipynb notebook in a Jupyter environment. Follow the instructions within the notebook to load data, preprocess it, train models, and make predictions. Monitor the accuracy metrics provided to evaluate the performance of the models. Example Metrics
+
+Mean Squared Error (MSE): 1.3138430025999263e-05 Root Mean Squared Error (RMSE): 0.0036246972323215167 Accuracy: 99.63753027676785 % Credits
+
+This project was inspired by the article AI & Machine Learning for Finance on Alpha Vantage. The initial codebase for the modeling is available in the aistockmodeling.ipynb notebook. License
